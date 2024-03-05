@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: quanguye <quanguye@student.42.fr>          +#+  +:+       +#+        */
+/*   By: sixshooterx <sixshooterx@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 16:42:59 by quanguye          #+#    #+#             */
-/*   Updated: 2023/11/27 15:39:49 by quanguye         ###   ########.fr       */
+/*   Updated: 2024/03/04 16:15:22 by sixshooterx      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,14 +61,14 @@ int	ft_printf(const char *format, ...)
 	return (total_length);
 }
 
-// int main(void)
-// {
-// 	char ahoj = -1;
-// 	char hoj = 'b';
-// 	char *str = "Once you play gods";
-// 	char *ptr = &ahoj;
-// 	int u = -20;
-// 	ft_printf(" %r %X \n", ptr, 30);
-// 	printf(" %r %X", ptr, 30);
-// 	return 0;
-// }
+int main(void)
+{
+	// char ahoj = -1;
+	// char hoj = 'b';
+	// char *str = "Once you play gods";
+	char *ptr = &ahoj;
+	// int u = -20;
+	ft_printf(" %r %X \n", ptr, 30);
+	printf(" %r %X", ptr, 30);
+	return 0;
+}
